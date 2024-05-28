@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Callie Walseth Web Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css2/style.css" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <nav>
+        <section id="brand">
+          <h1>Callie Walseth</h1>
+        </section>
+        <section id="navigation">
+          <!-- This is the navigation that will appear when min width is below 768px -->
+          <section class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="design.html">Design Portfolio</a>
+            <a href="web.html">Web Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </section>
+        </section>
+        <section id="navigation-2">
+          <!-- This is the navigation that will appear when min width is over 768px -->
+          <section class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="design.html">Design Portfolio</a>
+            <a href="web.html">Web Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </section>
+        </section>
+        <div id="hamburger" class="container" onclick="myFunction(this)">
+          <div class="bar1 bars"></div>
+          <div class="bar2 bars"></div>
+          <div class="bar3 bars"></div>
+        </div>
+      </nav>
+    </header>
+    <!-- <main id="main" class="design"> -->
+    <main id="main-web">
+      <!-- <img class="column"  src="images/design/1-kitty.jpg" alt="#" style="height: 1000px; width: auto;"> -->
+      <!-- <figcaption class="fig-cap" style="text-align: center;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, rerum.</figcaption> -->
+      <!-- <img class="column" src="images/design/2-concertPoster.jpg" alt="#" style="height: 1000px; width: auto;"> 
+          <img class="column" src="images/design/3-TargetTee.jpg" alt="#" style="height: 900px; width: auto;">
+          <img class="column" src="images/design/4-logo.jpg" alt="#" style="height: 900px; width: auto;">
+          <img class="column" src="images/design/5-GolfShoe.jpg" alt="#" style="height: 1100px; width: auto;">
+          <img class="column" src="images/design/6-masks.jpg" alt="#" style="height: 1100px; width: auto;">  -->
+      <section>
+        <h1 id="web-title">Web Design Portfolio</h1>
+        <!-- <figcaption class="fig-cap" style="text-align: center;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, rerum.</figcaption> -->
+        <img class="web" id="mobile" src="images/web/Furniture.png" alt="#">
+        <figcaption class="fig-cap" >Follow the link below to view the fully interactive Adobe XD project on the web. Items highlighted in red will lead to another page.</figcaption>
+        <a id="xd-link" href="https://xd.adobe.com/view/ebaf9f4b-3fc9-40db-a28b-f1a2660e6796-befc/" >Link to Project</a>
+        <img class="web" id="mobile" src="images/web/1-mobileApp.jpg" alt="#">
+        <img class="web" id="axure" src="images/web/2-Axure.jpg" alt="#">  
+        <img class="web" id="web-3" src="images/web/3-web.png" alt="#">    
+        <img class="web" id="web-4" src="images/web/4-web.png" alt="#">
+        <img class="web" id="web-5" src="images/web/5-Web.png" alt="#">  
+        <img class="web" id="web-6" src="images/web/6-web.png" alt="#">
+        <img class="web" id="web-7" src="images/web/7-web.png" alt="#">
+      </section>
+    </main>
+    <footer><span>Callie Walseth &copy; 2023</span></footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
